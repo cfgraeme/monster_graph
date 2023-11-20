@@ -12,14 +12,12 @@ def reset_data(db, path):
 
         # Import Monsters
         for monster_data in data.get("monsters", []):
-            print(monster_data)
             monster = Monster(**monster_data)
             db.add(monster)
         db.commit()
 
         # Import Movies
         for movie_data in data.get("movies", []):
-            print(movie_data)
             monster_ids = movie_data.pop("monsters", [])
             movie = Movie(**movie_data)
 
@@ -32,3 +30,4 @@ def reset_data(db, path):
 
         db.commit()
         db.close()
+        print("Data Reset!")

@@ -1,16 +1,17 @@
 import strawberry
 
-from .models import Monster, Movie
+from ..db.models import Monster, Movie
 from .schema import MonsterSchema, MovieSchema
 
 from typing import Optional
 
 
-
 @strawberry.type
 class Mutation:
     @strawberry.mutation
-    def add_movie(self, info, title: str, year: int, synopsis: str, director: str) -> MovieSchema:
+    def add_movie(
+        self, info, title: str, year: int, synopsis: str, director: str
+    ) -> MovieSchema:
         db = info.context["db"]
         new_movie = Movie(
             title=title,
@@ -23,9 +24,10 @@ class Mutation:
         db.refresh(new_movie)
         return new_movie
 
-
     @strawberry.mutation
-    def add_monster(self, info, name: str, classification: str, movies: Optional[list[str]] = None) -> MonsterSchema:
+    def add_monster(
+        self, info, name: str, classification: str, movies: Optional[list[str]] = None
+    ) -> MonsterSchema:
         db = info.context["db"]
         new_monster = Monster(name=name, classification=classification)
         if movies:
