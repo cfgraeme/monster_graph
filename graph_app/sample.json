@@ -1,0 +1,234 @@
+{
+    "monsters": [
+        {
+            "name": "Godzilla",
+            "classification": "Kaiju"
+        },
+        {
+            "name": "King Kong",
+            "classification": "Kaiju"
+        },
+        {
+            "name": "Frankenstein's Monster",
+            "classification": "Undead"
+        },
+        {
+            "name": "Count Orlok",
+            "classification": "Vampire"
+        },
+        {
+            "name": "Dracula",
+            "classification": "Vampire"
+        },
+        {
+            "name": "Xenomorph",
+            "classification": "Alien"
+        },
+        {
+            "name": "Predator",
+            "classification": "Alien"
+        },
+        {
+            "name": "Mummy",
+            "classification": "Undead"
+        },
+        {
+            "name": "The Thing",
+            "classification": "Alien"
+        }
+    ],
+    "movies": [
+        {
+            "title": "Godzilla (1954)",
+            "year": 1954,
+            "synopsis": "A giant radioactive lizard terrorizes Tokyo.",
+            "monsters": [
+                1
+            ],
+            "director": "Ishiro Honda"
+        },
+        {
+            "title": "Godzilla vs. Kong (2021)",
+            "year": 2021,
+            "synopsis": "Epic battle between monsters.",
+            "monsters": [
+                1,
+                2
+            ],
+            "director": "Adam Wingard"
+        },
+        {
+            "title": "Shin Godzilla (2016)",
+            "year": 2016,
+            "synopsis": "A new version of Godzilla emerges.",
+            "monsters": [
+                1
+            ],
+            "director": "Hideaki Anno, Shinji Higuchi"
+        },
+        {
+            "title": "King Kong (1933)",
+            "year": 1933,
+            "synopsis": "A giant ape in the jungle.",
+            "monsters": [
+                2
+            ],
+            "director": "Merian C. Cooper, Ernest B. Schoedsack"
+        },
+        {
+            "title": "Kong: Skull Island (2017)",
+            "year": 2017,
+            "synopsis": "Explorers encounter Kong on an island.",
+            "monsters": [
+                2
+            ],
+            "director": "Jordan Vogt-Roberts"
+        },
+        {
+            "title": "Frankenstein (1931)",
+            "year": 1931,
+            "synopsis": "Mad scientist creates a monster.",
+            "monsters": [
+                3
+            ],
+            "director": "James Whale"
+        },
+        {
+            "title": "Bride of Frankenstein (1935)",
+            "year": 1935,
+            "synopsis": "The monster gets a bride.",
+            "monsters": [
+                3
+            ],
+            "director": "James Whale"
+        },
+        {
+            "title": "Young Frankenstein (1974)",
+            "year": 1974,
+            "synopsis": "Comedy homage to classic horror.",
+            "monsters": [
+                3
+            ],
+            "director": "Mel Brooks"
+        },
+        {
+            "title": "Nosferatu (1922)",
+            "year": 1922,
+            "synopsis": "An early vampire film.",
+            "monsters": [
+                4
+            ],
+            "director": "F. W. Murnau"
+        },
+        {
+            "title": "Alien (1979)",
+            "year": 1979,
+            "synopsis": "Terrifying alien in space.",
+            "monsters": [
+                6
+            ],
+            "director": "Ridley Scott"
+        },
+        {
+            "title": "Aliens (1986)",
+            "year": 1986,
+            "synopsis": "Marines face off against aliens.",
+            "monsters": [
+                6
+            ],
+            "director": "James Cameron"
+        },
+        {
+            "title": "Predator (1987)",
+            "year": 1987,
+            "synopsis": "An alien hunts soldiers.",
+            "monsters": [
+                7
+            ],
+            "director": "John McTiernan"
+        },
+        {
+            "title": "Predator 2 (1990)",
+            "year": 1990,
+            "synopsis": "Predator in an urban jungle.",
+            "monsters": [
+                7
+            ],
+            "director": "Stephen Hopkins"
+        },
+        {
+            "title": "Alien 3 (1992)",
+            "year": 1992,
+            "synopsis": "Ripley faces off against more aliens.",
+            "monsters": [
+                6
+            ],
+            "director": "David Fincher"
+        },
+        {
+            "title": "Alien: Resurrection (1997)",
+            "year": 1997,
+            "synopsis": "Cloned Ripley and more alien horrors.",
+            "monsters": [
+                6
+            ],
+            "director": "Jean-Pierre Jeunet"
+        },
+        {
+            "title": "Alien vs. Predator (2004)",
+            "year": 2004,
+            "synopsis": "Aliens and Predators clash in an Antarctic pyramid.",
+            "monsters": [
+                6,
+                7
+            ],
+            "director": "Paul W. S. Anderson"
+        },
+        {
+            "title": "Aliens vs. Predator: Requiem (2007)",
+            "year": 2007,
+            "synopsis": "Alien and Predator battles continue on Earth.",
+            "monsters": [
+                6,
+                7
+            ],
+            "director": "Colin Strause, Greg Strause"
+        },
+        {
+            "title": "Dracula (1931)",
+            "year": 1931,
+            "synopsis": "Classic vampire tale.",
+            "monsters": [
+                5
+            ],
+            "director": "Tod Browning"
+        },
+        {
+            "title": "Bram Stoker's Dracula (1992)",
+            "year": 1992,
+            "synopsis": "A more faithful adaptation.",
+            "monsters": [
+                5
+            ],
+            "director": "Francis Ford Coppola"
+        },
+        {
+            "title": "The Mummy (1932)",
+            "year": 1932,
+            "synopsis": "An archaeologist accidentally revives an ancient mummy.",
+            "monsters": [
+                7
+            ],
+            "director": "Karl Freund"
+        },
+        {
+            "title": "The Mummy (1999)",
+            "year": 1999,
+            "synopsis": "A remake of the classic.",
+            "monsters": [
+                7
+            ],
+            "director": "Stephen Sommers"
+        }
+    ]
+}
